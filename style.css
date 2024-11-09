@@ -85,7 +85,7 @@
    background-color: #ff737c;
  }
 
- @media screen and (max-width: 640px) {
+ @media screen and (max-width: 600px) {
    
     body {
     /* font-family: Century Gothic; */
@@ -93,9 +93,11 @@
     /* background-position: center; */
     /* background-size: cover; */
     padding: 0px;
-    /* padding-top: 0px; */
-    /* padding-bottom: 0px; */
-    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    height: 1020px;
+    width: 360px;
  } 
 
    .resume-container {
@@ -103,8 +105,9 @@
       /* background-color: rgba(255, 255, 255, 0.6); */
       /* margin-right: 50px; */
       width: 120%;
+      height: 1020px;
       margin: 0 auto;
-      border-radius: 10px;
+      border-radius: 0px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
    }
   
@@ -115,8 +118,8 @@
       padding: 20px;
       width: 35%;
       text-align: center;
-      border-right: 5px solid #39cce6;
-      border-radius: 10px 0 0 10px;
+      border-right: 0px solid #39cce6;
+      border-radius: 0px ;
    }
   
    .profile-picture {
